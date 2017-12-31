@@ -3,7 +3,7 @@ const _ = require('lodash');
 
 /**
  *
- * @param {{device: String, option: String, value: String}} triggerFields
+ * @param {{device: String}} triggerFields
  * @return {Promise.<Array>}
  */
 module.exports = async function fetchPropertyUpdates(triggerFields) {
